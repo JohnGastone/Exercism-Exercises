@@ -17,3 +17,18 @@ def lose(power_pellet_active, touching_ghost):
 def win(has_eaten_all_dots, power_pellet_active, touching_ghost):
     """Trigger the victory event when all dots have been eaten."""
     return has_eaten_all_dots and not lose(power_pellet_active, touching_ghost)
+
+
+'''
+
+Explanation:
+
+-> eat_ghost: Pac-Man can eat a ghost only if he has an active power pellet (power_pellet_active) and is touching a ghost (touching_ghost).
+
+-> core: Pac-Man scores if he is touching either a power pellet (touching_power_pellet) or a dot (touching_dot).
+
+-> lose: Pac-Man loses if he is touching a ghost (touching_ghost) without having an active power pellet (power_pellet_active).
+
+-> win: Pac-Man wins if he has eaten all dots (has_eaten_all_dots) and has not lost based on the conditions specified in the lose function.
+
+'''
