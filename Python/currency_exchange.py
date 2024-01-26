@@ -23,15 +23,21 @@ This function should return the amount of money that is left from the budget.",
 
 denomination : The value of a single bill.
 number_of_bills : The total number of bills.
-This exchanging booth only deals in cash of certain increments. The total you receive must be divisible by the value of one "bill" or unit, which can leave behind a fraction or remainder. Your function should return only the total value of the bills (excluding fractional amounts) the booth would give back. Unfortunately, the booth gets to keep the remainder/change as an added bonus.", 
+This exchanging booth only deals in cash of certain increments. T
+he total you receive must be divisible by the value of one "bill" or unit, which can leave behind a fraction or remainder.
+Your function should return only the total value of the bills (excluding fractional amounts) the booth would give back. 
+Unfortunately, the booth gets to keep the remainder/change as an added bonus.", 
 
 -> TASK 4-"Create the get_number_of_bills() function, taking amount and denomination.
 
-This function should return the number of currency bills that you can receive within the given amount. In other words: How many whole bills of currency fit into the starting amount? Remember -- you can only receive whole bills, not fractions of bills, so remember to divide accordingly. Effectively, you are rounding down to the nearest whole bill/denomination.", 
+This function should return the number of currency bills that you can receive within the given amount. 
+In other words: How many whole bills of currency fit into the starting amount? Remember -- you can only receive whole bills, not fractions of bills, so remember to divide accordingly. 
+Effectively, you are rounding down to the nearest whole bill/denomination.", 
 
 -> TASK 5- "Create the get_leftover_of_bills() function, taking amount and denomination.
 
-This function should return the leftover amount that cannot be returned from your starting amount given the denomination of bills. It is very important to know exactly how much the booth gets to keep.", 
+This function should return the leftover amount that cannot be returned from your starting amount given the denomination of bills. 
+It is very important to know exactly how much the booth gets to keep.", 
 
 -> TASK 6 - "Create the exchangeable_value() function, taking budget, exchange_rate, spread, and denomination.
 
