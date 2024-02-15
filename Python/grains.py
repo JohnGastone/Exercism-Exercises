@@ -1,8 +1,9 @@
-To solve this challenge, you can create a function that calculates the number of grains on a given square and another function to calculate the total number of grains on the entire chessboard.
+# To solve this challenge, you can create a function that calculates the number of grains on a given square ,
+# and another function to calculate the total number of grains on the entire chessboard.
 
-Here's a Python implementation:
+# Here's a Python implementation:
 
-```python
+# ```python
 def grains_on_square(square):
     """
     Calculate the number of grains on a given square.
